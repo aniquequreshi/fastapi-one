@@ -8,7 +8,7 @@ from sqlalchemy.orm import sessionmaker
 # junk = os.getenv('DB_URL')
 # print(junk)
 
-SQLALCHEMY_DATABASE_URL = "junk"
+SQLALCHEMY_DATABASE_URL = "db connection string"
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
